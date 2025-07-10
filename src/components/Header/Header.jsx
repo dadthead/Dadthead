@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { assests } from '../../assets/assets';
 import { NavLink, Link } from 'react-router-dom';
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react';
-import Button from '../Hero/Button';
+import Button from './Button';
 
 const Header = () => {
     const [open, setOpen] = useState(false);
@@ -10,7 +10,9 @@ const Header = () => {
     return (
         <header className="w-full absolute top-0 left-0 z-50 ">
             <div className="max-w-screen-xl mx-auto flex items-center justify-between py-3 px-6 sm:px-8 md:px-10">
+                <Link to='/'>
                 <img src={assests.logo} className="w-24" alt="Logo" />
+                </Link>
 
                 <ul className="hidden md:flex items-center gap-8 text-amber-400 text-sm font-semibold uppercase">
                     <NavLink to="/" className={({ isActive }) => isActive ? 'text-white' : ''}><li className="cursor-pointer hover:text-white">Home</li></NavLink>

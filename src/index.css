@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Style+Script&display=swap');
 @import "tailwindcss";
 
 
@@ -16,6 +16,7 @@ body{
   padding: 0;
   overflow-x: hidden;
   font-optical-sizing: auto;
+  background-color: black;
   /* background-color: #F4F4F4; */ 
 
 }
@@ -30,3 +31,62 @@ body{
   font-optical-sizing: auto;
   
 }
+.style-script-regular {
+  font-family: "Style Script", cursive;
+  font-weight: 500;
+  font-size: 5.5rem;
+  font-style: normal;
+}
+
+.client-scroll-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.client-scrolling {
+  animation: scroll-left 30s linear infinite;
+  white-space: nowrap;
+  display: inline-flex;
+}
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 10s linear infinite;
+}
+
+.services_bg{
+  background: url('/src/assets/service_bg.svg') no-repeat center center/cover;
+}
+
+.contact {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(87, 86, 86, 0.5)),
+  url('/src/assets/Contact.png') no-repeat center center / cover;
+}
+
+
+.webdevelopment{
+  background: url('/src/assets/webdevelopment.svg') no-repeat center center/cover;
+}
+
+.digitalmarketing{
+  background: url('/src/assets/digitalmarketing.svg') no-repeat center center/cover;
+} 
+
+.seo{ 
+  background: url('/src/assets/seo.svg') no-repeat center center/cover;
+}
+.graphic{
+  background: url('/src/assets/graphic.svg') no-repeat center center/cover;
+}
+
+
