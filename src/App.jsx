@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
@@ -8,8 +9,24 @@ import Contact from './pages/Contact';
 import Services from './pages/Services';
 import Portfolio from './pages/Portfolio';
 import Footer from './components/Footer/Footer';
-import ServicesList from './components/ServicesList/ServicesList';
-import ServiceDetail from './components/ServicesList/ServiceDetail';
+
+{/* Dynamic Routing */}
+import WebdevelopmentSingle from './components/singlePages/WebdevelopmentSingle';
+import DigitalMarketingSingle from './components/singlePages/DigitalMarketingSingle';
+import SeoSingle from './components/singlePages/SeoSingle';
+import GraphicdesigningSingle from './components/singlePages/GraphicdesigningSingle';
+
+{/* {portfolio Pages} */}
+import Allworks from './pages/Allworks';
+import Webdevelop from './pages/Webdevelop';
+import Seoptimization from './pages/Seoptimization';
+import Socialmedia from './pages/Socialmedia';
+import Socialmediamarketing from './pages/Scioalmediamarketing';
+import Graphic from './pages/Graphic';
+import Seomarketing from './pages/Seomarketing';
+import Contentmarketing from './pages/Contentmarketing';
+import Datanalytics from './pages/Datanalytics';
+
 
 const App = () => {
   return (
@@ -22,8 +39,24 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/serviceslist" element={<ServicesList />} />
-        <Route path=" /service/:id" element={<ServiceDetail />} />
+
+        {/* Dynamic Routing */}
+        <Route path="/webdevelopement/:id" element={<WebdevelopmentSingle />} />
+        <Route path="/digitalmarketing/:id" element={<DigitalMarketingSingle />} />
+        <Route path="/seo/:id" element={<SeoSingle />} />
+        <Route path="/graphicdesign/:id" element={<GraphicdesigningSingle />} />
+      
+      {/* {portfolio Pages} */}
+        <Route path="/all" element={<Allworks />} />
+        <Route path="/webdevelop" element={<Webdevelop />} />
+        <Route path="/socialmedia" element={<Socialmedia/> }/>
+        <Route path="/socialmediamarketing" element={<Socialmediamarketing/> }/>
+        <Route path="/seo" element={<Seoptimization />} />
+        <Route path="/graphic" element={<Graphic />} />
+        <Route path="/seomarketing" element={<Seomarketing/>} />
+        <Route path="/contentmarketing" element={<Contentmarketing />} />
+        <Route path="/datanalytics" element={<Datanalytics />} />
+        
       </Routes>
       <Footer />
     </div>

@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./HeroSecondPage.css";
 import { assests } from "../../../assets/assets";
 import { motion } from "framer-motion";
+import Particles from "../../Gsap/Particles/Particles";
 
 const HomeSecondPage = () => {
+  const triggerRef = useRef(null);
+
   return (
-    <div className="second  py-17 px-6 md:px-20 ">
+    <div className="second relative py-17 px-6 md:px-20">
+      {/* Particles background */}
+      <div className="absolute inset-0 -z-10">
+        <Particles triggerRef={triggerRef} />
+      </div>
+
       <h2 className="text-4xl md:text-6xl text-center text-amber-400 font-bold drop-shadow-lg mb-12 underline decoration-1 underline-offset-8">
         About
       </h2>
@@ -17,19 +25,15 @@ const HomeSecondPage = () => {
         transition={{ duration: 0.8, ease: "easeOut" }}
         viewport={{ once: true }}
       >
-        <div className="w-full  md:w-1/2 text-white text-base md:text-xl leading-8 px-4 md:px-10">
+        <div className="w-full md:w-1/2 text-white text-base md:text-xl leading-8 px-4 md:px-10">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
-            delectus modi amet soluta iusto officiis ipsa dolores reiciendis?
-            Reiciendis quas temporibus saepe nemo aperiam ducimus optio, error
-            dolorum deleniti excepturi.
+            At <span className="text-amber-400 font-semibold"> Dad The AD</span>, we are passionate about crafting digital marketing strategies that ignite growth and build a lasting online presence.
+            From SEO and social media marketing to PPC and branding campaigns, our expertise helps brands reach the right audience with maximum impact.
           </p>
           <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
-            delectus modi amet soluta iusto officiis ipsa dolores reiciendis?
-            Reiciendis quas temporibus saepe nemo aperiam ducimus optio, error
-            dolorum deleniti excepturi.
+            We combine creativity with data-driven insights to deliver custom solutions that convert visitors into loyal customers. With a team of designers, strategists, and tech experts, we offer end-to-end digital advertising services tailored to every business need.
+            Our goal is simple — to help your brand rise above the noise and leave a lasting impression.
           </p>
         </div>
 

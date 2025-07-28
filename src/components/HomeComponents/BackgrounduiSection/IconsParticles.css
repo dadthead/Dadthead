@@ -1,0 +1,70 @@
+.box-area {
+  position: absolute;
+  /* width: 5px; */
+  height: 90px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.base-box {
+  /* width: 1%; */
+  height: auto;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.icon-float-layer {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.float-icon {
+  /* position: absolute; */
+  font-size: 30px;
+  color: white;
+  animation: rise 4s ease-in-out infinite;
+  opacity: 0;
+}
+
+.delay-1 {
+  animation-delay: 0s;
+  left: -40px;
+}
+.delay-2 {
+  animation-delay: 0.5s;
+  left: 0;
+}
+.delay-3 {
+  animation-delay: 1s;
+  left: 40px;
+}
+.delay-4 {
+  animation-delay: 1.5s;
+  left: -20px;
+}
+
+@keyframes rise {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-60px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-120px);
+    opacity: 0;
+  }
+}
+
+
+

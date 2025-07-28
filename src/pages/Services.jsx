@@ -2,8 +2,8 @@ import React from 'react'
 import HeroSection from '../components/ServicesComponents/ServicesHeroSection/HeroSection'
 import Webdevelopment from '../components/ServicesComponents/WebDevelopmentSection/Webdevelopment'
 import Digitalmarketing from '../components/ServicesComponents/DigitalMarketing/Digitalmarketing'
-import Seo from '../components/ServicesComponents/SeoSection/Seo'
 import Graphicdesigning from '../components/ServicesComponents/GraphicDesigning/Graphicdesigning'
+import Searchengien from '../components/ServicesComponents/Seo/Searchengien'
 
 
 const Services = () => {
@@ -13,8 +13,7 @@ const Services = () => {
       <Webdevelopment/>
       <Digitalmarketing/>
       <Graphicdesigning/>
-      <Seo/>
-  
+      <Searchengien/>
 
     </div>
   )

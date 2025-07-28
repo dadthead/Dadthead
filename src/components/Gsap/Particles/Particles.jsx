@@ -7,15 +7,14 @@ const Particles = () => {
   useEffect(() => {
     particleRefs.current.forEach((particle, i) => {
       if (particle) {
-        // Animate each particle
         gsap.to(particle, {
-          x: Math.random() * 40 - 20, // move left-right
-          y: Math.random() * 40 - 20, // move up-down
-          duration: 4 + Math.random() * 2, // smooth duration
+          x: Math.random() * 60 - 30, // move further left-right
+          y: Math.random() * 60 - 30, // move further up-down
+          duration: 2 + Math.random() * 1, // faster: 2 to 3 seconds
           repeat: -1,
           yoyo: true,
           ease: 'sine.inOut',
-          delay: i * 8.03,
+          delay: i * 4, // can adjust to stagger start times
         });
       }
     });

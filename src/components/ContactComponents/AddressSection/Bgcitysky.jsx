@@ -5,10 +5,13 @@ import { motion } from 'framer-motion';
 import VanillaTilt from 'vanilla-tilt'; // ✅ import vanilla-tilt
 
 const Bgcitysky = () => {
+  
   const triggerRef = useRef(null);
+
   const tiltRef = useRef(null); // ✅ Create a ref for tilt
 
   // Initialize VanillaTilt
+
   useEffect(() => {
     if (tiltRef.current) {
       VanillaTilt.init(tiltRef.current, {

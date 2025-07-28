@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
 import { motion } from "framer-motion";
+import IconcsParticles from "../BackgrounduiSection/IconsParticles";
+
 import Backgroundui from "../BackgrounduiSection/Backgroundui";
 import BallParticles from "../../Gsap/BallParticles/Ballparticles";
-import { useRef } from "react";
+
 
 const Hero = () => {
   const heroRef = useRef(null);
   return (
     <div
       ref={heroRef}
-      className="w-full min-h-screen bg-[#0e0c0c] text-white relative overflow-hidden pt-20 px-4 md:px-16 lg:px-28">
+      className="w-full min-h-screen bg-black text-white relative overflow-hidden pt-20 px-4 md:px-16 lg:px-28">
       {/* Content Wrapper with justify-between */}
       <div className="flex flex-col md:flex-row items-center justify-between gap-5 mt-40">
 
@@ -70,19 +72,27 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeInOut" }}
           className="w-full md:w-1/2 flex justify-center items-center"
         >
-          <Backgroundui className="w-full max-w-sm pt-5 flex justify-center" />
+          <Backgroundui className="w-full max-w-sm pt-5 left-5.5 flex justify-center" />
+
+            <IconcsParticles />
         </motion.div>
 
       </div>
 
-      {/* Background Particles */
-      }
+           
+    
+     
+    
+       
+      
+
+      {/*  Background Particles */}
 
       <div className="absolute inset-0 z-0">
         <div className="particles-container">
           <BallParticles triggerRef={heroRef} />
-          {/* <Particles/> */}
-        </div>
+            {/* <Particles/>  */}
+        </div>  
 
       </div>
       {/* Yellow Wave SVG */}

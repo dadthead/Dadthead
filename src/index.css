@@ -3,6 +3,7 @@
 
 
 
+
 a.active hr{
   display: block;
 }
@@ -64,29 +65,25 @@ body{
   animation: scroll 10s linear infinite;
 }
 
-.services_bg{
-  background: url('/src/assets/service_bg.svg') no-repeat center center/cover;
+.Digitalsvg{
+  background: url('/src/assets/Digitalsvg.svg') no-repeat center center/cover;
 }
 
-.contact {
+ .contact { 
   background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(87, 86, 86, 0.5)),
   url('/src/assets/Contact.png') no-repeat center center / cover;
 }
 
 
-.webdevelopment{
-  background: url('/src/assets/webdevelopment.svg') no-repeat center center/cover;
-}
 
-.digitalmarketing{
-  background: url('/src/assets/digitalmarketing.svg') no-repeat center center/cover;
-} 
 
-.seo{ 
-  background: url('/src/assets/seo.svg') no-repeat center center/cover;
-}
-.graphic{
-  background: url('/src/assets/graphic.svg') no-repeat center center/cover;
-}
+
+
+
+
+
+
+
+
 
 

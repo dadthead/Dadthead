@@ -62,13 +62,13 @@ const BallParticles = ({ triggerRef }) => {
           right: 0,
           width: '250px',
           height: '250px',
-          backgroundColor: 'rgb(213, 129, 19)',
+          backgroundColor: 'rgb(218, 122, 19)',
           borderBottomLeftRadius: '250px',
           zIndex: 10,
         }}
       />
       {Array.from({ length: 14 }).map((_, i) => {
-        const size = Math.floor(Math.random() * 12) + 8;
+        const size = Math.floor(Math.random() * 6) + 4;
         return (
           <div
             key={i}

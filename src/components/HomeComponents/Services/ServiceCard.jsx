@@ -30,3 +30,20 @@ const ServiceCard = ({ icon, title, description, link }) => {
 };
 
 export default ServiceCard;
+
+
+
+
+// import React from "react";
+
+// const ServiceCard = ({ icon, title, description }) => {
+//   return (
+//     <div className="bg-black border-2 border-white rounded-xl hover:border-amber-400 p-6 h-[300px] w-full sm:w-[300px] shadow-lg hover:-translate-y-2 transition-transform duration-300">
+//       <div className="mb-4">{icon}</div>
+//       <h3 className="text-lg font-semibold text-white mb-2">{title}</h3>
+//       <p className="text-sm text-gray-400">{description}</p>
+//     </div>
+//   );
+// };
+
+// export default ServiceCard;

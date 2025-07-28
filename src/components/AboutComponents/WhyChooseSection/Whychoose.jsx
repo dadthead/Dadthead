@@ -14,7 +14,7 @@ const Choose = () => {
     transition={{ duration: 1.5, ease: "easeOut" }}
     viewport={{ once: true }}
   >
-    <h1 className="text-2xl md:text-4xl lg:text-5xl md:font-bold  text-amber-400 style-script-regular  text-center">
+    <h1 className="text-2xl md:text-4xl lg:text-7xl md:font-bold  text-amber-400 font-stretch-ultra-condensed  text-center playfair">
       Why Choose US
     </h1>
   </motion.div>
