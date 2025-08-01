@@ -9,7 +9,7 @@ const Herocontact = () => {
             <img
                 src={assests.contact}
                 alt="Background"
-                className="w-full h-full object-cover opacity-40"
+                className="w-full h-full object-cover "
             />
 
             <div className="absolute inset-0 flex flex-col items-center justify-center ">

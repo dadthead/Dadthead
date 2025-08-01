@@ -1,36 +1,44 @@
 import React from "react";
 import { assests } from "../../../assets/assets";
 import { motion } from "framer-motion";
+import { button } from "framer-motion/client";
 
 
 const projects = [
   {
-    category: "Abhee Smart Homes",
+     category: "BL Nutri Foods",
     title: "",
-    image: assests.abheesmart,
-    description: "A creative fruit arrangement used in modern food photography and branding.",
+    image: assests.BLNutri,
+description: "Empowering wellness with BL Nutri—where science meets nutrition for a healthier you.",
     color: "text-amber-400",
+    // button : "https://blnutrifoods.com/"
+    
   },
   {
-    category: "BL Nutri Foods",
+   category: "Yogya",
     title: "",
-    image: assests.blnutri,
-    description: "A sleek workspace UI design for startups and small businesses.",
-    color: "text-amber-400",
+    image: assests.Yogyaa,
+description: "Discover the elegance of Yogya—where tradition meets modern style in every frame.",
+  color: "text-amber-400",
+    button : "https://theyogya.com/"
   },
   {
-    category: "Global Diagnostics",
+    category: "AEFL",
     title: "",
-    image: assests.diagnos,
-    description: "Explore breathtaking sunset views captured during a coastal retreat.",
-    color: "text-amber-400",
+    image: assests.aefl,
+description: "Experience the artistry of AEFL—where visuals meet emotion through cinematic expression.",
+   color: "text-amber-400",
+    button : "https://www.aefl.co.in/"
   },
   {
-    category: "Global Diagnostics",
+    
+
+    category: "Radhika ",
     title: "",
-    image: assests.diagnos,
-    description: "Explore breathtaking sunset views captured during a coastal retreat.",
+    image: assests.Radhika,
+description: "Radhika Rayudu—redefining confidence through advanced cosmetic gynecology and personalized care.",
     color: "text-amber-400",
+    button : "https://radhikacosmeticgynecology.com/"
   },
 ];
 
@@ -65,9 +73,27 @@ const Projects = () => {
               <span className={`text-sm font-semibold ${project.color}`}> -{project.category}</span>
               <h3 className="text-xl font-bold mt-2 mb-2">{project.title}</h3>
               <p className="text-gray-400 mb-4">{project.description}</p>
-              <button className="bg-amber-400 text-white text-sm px-4 py-2 rounded-full hover:bg-amber-400 transition cursor-pointer">
-                View Project
-              </button>
+             {/* ✅ Conditional Button Rendering Here */}
+      {project.button ? (
+        <a
+          href={project.button}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block"
+        >
+          <button className="bg-amber-400 text-white text-sm px-4 py-2 rounded-full hover:bg-amber-500 transition cursor-pointer">
+            View Project
+          </button>
+        </a>
+      ): (
+          <button
+          disabled
+          className="bg-gray-500 text-white text-sm px-4 py-2 rounded-full cursor-not-allowed"
+        >
+          No Link Available
+        </button>
+
+      )}
             </div>
           </motion.div>
         ))}

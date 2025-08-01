@@ -3,19 +3,18 @@ import "./Testimonials.css";
 import { assests } from "../../../assets/assets";
 
 const testimonials = [
-  { name: "Abhee Smart Homes", title: "Client", text: "Beautiful design", img: assests.abheesmarthome1 },
-  { name: "Yogya", title: "Client", text: "Amazing experience.", img: assests.Yogya1 },
-  { name: "BL Nutri Foods", title: "Client", text: "Great support.", img: assests.logo1 },
-  { name: "Japali", title: "Client", text: "Loved the design.", img: assests.Japali1 },
-  { name: "Global Diagnostics", title: "Client", text: "Professional work.", img: assests.globaldiagnostics1},
-  { name: "meerashub", title: "Client", text: "Highly recommended.", img: assests.meerashub1 },
-  { name: "yeluri", title: "Client", text: "Beautiful design", img: assests.yeluri1 },
-  { name: "Nyla", title: "Client", text: "Amazing experience.", img: assests.nyla1 },
-  { name: "Sultan", title: "Client", text: "Great support.", img: assests.sultan1 },
-  { name: "ammrutha", title: "Client", text: "Loved the design.", img: assests.ammrutha1 },
-  { name: "medlight", title: "Client", text: "Professional work.", img: assests.medlight1 },
-  { name: "blnutry", title: "Client", text: "Highly recommended.", img: assests.blnutry1 },
-  {name:"radhikarayadu", title: "Client", text: "Highly recommended.", img: assests.radhikarayadu1 },
+  { name: "Yogya", title: "Client", text: "Amazing experience.", img: assests.women1 },
+  { name: "BL Nutri Foods", title: "Client", text: "Great support.", img: assests.men1 },
+  { name: "Japali", title: "Client", text: "Loved the design.", img: assests.women2 },
+  { name: "Global Diagnostics", title: "Client", text: "Professional work.", img: assests.men2},
+  { name: "meerashub", title: "Client", text: "Highly recommended.", img: assests.women3 },
+  { name: "yeluri", title: "Client", text: "Beautiful design", img: assests.men3 },
+  { name: "Nyla", title: "Client", text: "Amazing experience.", img: assests.women4 },
+  { name: "Sultan", title: "Client", text: "Great support.", img: assests.men4},
+  { name: "ammrutha", title: "Client", text: "Loved the design.", img: assests.women5 },
+  { name: "medlight", title: "Client", text: "Professional work.", img: assests.men5 },
+  { name: "blnutry", title: "Client", text: "Highly recommended.", img: assests.women6 },
+  {name:"radhikarayadu", title: "Client", text: "Highly recommended.", img: assests.women7 },
  
 ];
 

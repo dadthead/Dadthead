@@ -7,9 +7,10 @@ import cross from './cross.png'
 import call from './call.png'
 import mail from './mail.png'
 import d from './d.png'
-import abheesmart from './abheesmart.jpg'
-import blnutri from './blnutri.jpeg'
-import diagnos from './diagnos.jpg'
+import Radhika from './Radhika.jpg'
+import aefl from './aefl.jpg'
+import Yogyaa from './Yogyaa.jpg'
+import BLNutri from './BLNutri.jpg'
 import aboutbanner from './aboutbanner.png'
 import questionmark from  './questionmark.png'
 // import service1 from './service1.png'
@@ -164,6 +165,23 @@ import medlight from './medlight.png'
 import radhikarayadu from './radhikarayadu.png'
 import blnutry from './blnutry.png'
 
+// human resources
+import women1 from './women1.jpg'
+import women2 from './women2.jpg'
+import women3 from './women3.jpg'
+import women4 from './women4.jpg'
+import women5 from './women5.jpg'
+import women6 from './women6.jpg'
+import women7 from './women7.jpg'
+
+import men1 from './men1.jpg'
+import men2 from './men2.jpg'
+import men3 from './men3.jpg'
+import men4 from './men4.jpg'
+import men5 from './men5.jpg'
+
+
+
 
 
 
@@ -178,9 +196,10 @@ export const assests={
     call,
     mail,
     d, 
-    abheesmart,
-    blnutri,
-    diagnos,
+    Radhika,
+    aefl,
+    Yogyaa,
+    BLNutri,
     aboutbanner,
     questionmark,
     // service1,
@@ -344,10 +363,25 @@ SeoBanner,
     suzuki,
     medlight,
     radhikarayadu,
-    blnutry
+    blnutry,
    
  
+// human resources
+    women1,
+    women2,
+    women3,
+    women4,
+    women5,
+    women6,
+    women7,
 
+    men1,
+    men2,
+    men3,
+    men4,
+    men5,
+    
+    
    
     
     

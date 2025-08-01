@@ -99,8 +99,8 @@ function Careers() {
 
             <p className="mb-12">
               👉 Send your work to{" "}
-              <a href="mailto:abc@dadthead.com" className="underline text-amber-400 hover:text-white transition">
-                abc@dadthead.com
+              <a href="mailto:dadtheadbbmm@gmail.com" className="underline text-amber-400 hover:text-white transition">
+                dadtheadbbmm@gmail.com
               </a>
             </p>
 

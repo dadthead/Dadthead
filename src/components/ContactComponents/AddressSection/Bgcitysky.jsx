@@ -34,10 +34,10 @@ const Bgcitysky = () => {
   return (
     <div
       ref={triggerRef}
-      className="relative bg-[#1E1E1E] p-6 rounded-lg shadow-lg text-center overflow-hidden"
+      className="relative bg-black p-6 rounded-lg shadow-lg text-center overflow-hidden"
     >
       {/* Heading */}
-      <h2 className="text-4xl font-semibold mb-10 text-amber-400 z-10 relative">Our Office</h2>
+      <h2 className="text-5xl font-semibold mb-10 text-amber-400 z-10 relative">Our Office</h2>
 
       {/* Image & content */}
       <div className="flex flex-col lg:flex-row items-center justify-center gap-2 lg:gap-0 z-10 relative">
@@ -58,21 +58,39 @@ const Bgcitysky = () => {
 
         {/* Address content */}
         <div className="py-16 px-5 text-center lg:text-left max-w-lg">
-          <motion.div
-            initial={{ opacity: 0, y: 60 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 2.5, ease: "easeOut" }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-xl font-semibold text-amber-400 mt-4 lg:mt-0">Guntur</h2>
-            <p className="text-gray-300 mt-2">
-              Digital Marketing Partner, Near Vajrams, 4th Ln, 13th Cross, Brodipet, Guntur, Andhra Pradesh - 522002
-            </p>
-            <p className="text-gray-300 mt-2">
-              Mobile: +91 83330 79696
-            </p>
-          </motion.div>
-        </div>
+  {/* Guntur address */}
+  <motion.div
+    initial={{ opacity: 0, y: 60 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 2.5, ease: "easeOut" }}
+    viewport={{ once: true }}
+  >
+    <h2 className="text-3xl font-semibold text-amber-400 mt-4 lg:mt-0">Guntur</h2>
+    <p className="text-gray-300 mt-2 text-xl">
+      Digital Marketing Partner, Near Vajrams, 4th Ln, 13th Cross, Brodipet, Guntur, Andhra Pradesh - 522002
+    </p>
+    <p className="text-gray-300  text-xl mt-2">
+      Mobile: +91 83330 79696
+    </p>
+  </motion.div>
+
+  {/* Hyderabad address  */}
+  <motion.div
+    initial={{ opacity: 0, y: 60 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 2.5, ease: "easeOut" }}
+    viewport={{ once: true }}
+  >
+    <h2 className="text-3xl font-semibold text-amber-400 mt-10 lg:mt-6">Hyderabad</h2>
+   
+    <p className="text-gray-300 mt-2 text-xl">
+       Hyderabad, Telangana - 500081
+    </p>
+    <p className="text-gray-300 text-xl mt-2">
+      Mobile: +91 83330 79696
+    </p>
+  </motion.div>
+</div>
       </div>
 
       {/* Particles background */}

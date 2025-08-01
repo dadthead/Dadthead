@@ -65,13 +65,20 @@ body{
   animation: scroll 10s linear infinite;
 }
 
-.Digitalsvg{
+/* .Digitalsvg{
   background: url('/src/assets/Digitalsvg.svg') no-repeat center center/cover;
-}
+} */
 
  .contact { 
   background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(87, 86, 86, 0.5)),
   url('/src/assets/Contact.png') no-repeat center center / cover;
+}
+
+/* { Favicon icon } */
+.logo{
+  width: 25px;
+  height: 35px;
+  size: 15px;
 }
 
 
