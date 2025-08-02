@@ -26,6 +26,7 @@ const DigitalMarketingSingle = () => {
         <img
           src={assests.dm}
           alt="Background"
+          loading='lazy'
           className="w-full md:h-[400px] object-cover hidden md:block"
         />
 
@@ -97,6 +98,7 @@ const DigitalMarketingSingle = () => {
                   viewport={{ once: true }}
                   src={item.subimg}
                   alt={item.subtitle}
+                  loading='lazy'
                   className="w-45 h-38 md:w-80 md:h-80 object-cover"
                 />
               </div>

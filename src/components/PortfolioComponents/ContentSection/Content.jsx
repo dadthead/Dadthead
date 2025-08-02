@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Content = () => {
     return (
@@ -6,16 +7,16 @@ const Content = () => {
             <h2 className="text-4xl lg:text-5xl underline decoration-1 underline-offset-8  font-semibold mb-10 text-amber-400">Our Works</h2>
             <div className='max-w-7xl mx-auto text-white '>
                 <p className='text-lg  hover:underline-offset-4'>
-                    <a href='all' className='hover:text-amber-400 underline underline-offset-4 '>All Works</a> &nbsp; &nbsp;
-                    <a href='/webdevelop' className='hover:text-amber-400 underline underline-offset-4'>Website Development</a> &nbsp; &nbsp;
-                    <a href='/socialmedia' className='hover:text-amber-400 underline underline-offset-4'>Social Media Optimization</a> &nbsp; &nbsp;
-                    <a href='/socialmediamarketing' className='hover:text-amber-400 underline underline-offset-4'>Social Media Marketing</a> &nbsp; &nbsp;
-                    <a href='/graphic' className='hover:text-amber-400 underline underline-offset-4'>Graphic Design</a> &nbsp; &nbsp;
-                    <a href='/seo' className='hover:text-amber-400 underline underline-offset-4'>Search Engine Optimization</a> &nbsp; &nbsp;
-                    <a href='/seomarketing' className='hover:text-amber-400 underline underline-offset-4'>Search Engine Marketing</a> &nbsp; &nbsp;
-                    <a href='/contentmarketing' className='hover:text-amber-400 underline underline-offset-4'>Content Marketing</a> &nbsp; &nbsp;
-                    <a href='/datanalytics' className='hover:text-amber-400 underline underline-offset-4'>Data Analytics</a> &nbsp; &nbsp;
-
+                   
+                <Link to='/all' className='hover:text-amber-400 underline underline-offset-4 '>All Works</Link> &nbsp; &nbsp;
+                <Link to='/webdevelop' className='hover:text-amber-400 underline underline-offset-4'>Website Development</Link> &nbsp; &nbsp;
+                <Link to='/socialmedia' className='hover:text-amber-400 underline underline-offset-4'>Social Media Optimization</Link> &nbsp; &nbsp;
+                <Link to='/socialmediamarketing' className='hover:text-amber-400 underline underline-offset-4'>Social Media Marketing</Link> &nbsp; &nbsp;
+                <Link to='/graphic' className='hover:text-amber-400 underline underline-offset-4'>Graphic Design</Link> &nbsp; &nbsp;
+                <Link to='/seo' className='hover:text-amber-400 underline underline-offset-4'>Search Engine Optimization</Link> &nbsp; &nbsp;
+                <Link to='/seomarketing' className='hover:text-amber-400 underline underline-offset-4'>Search Engine Marketing</Link> &nbsp; &nbsp;
+                <Link to='/contentmarketing' className='hover:text-amber-400 underline underline-offset-4'>Content Marketing</Link> &nbsp; &nbsp;
+                <Link to='/datanalytics' className='hover:text-amber-400 underline underline-offset-4'>Data Analytics</Link>
 
 
                 </p>

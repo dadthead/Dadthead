@@ -52,6 +52,7 @@ const Bgcitysky = () => {
             ref={tiltRef}
             src={assests.buldingimg}
             alt="Guntur"
+            loading='lazy'
             className="w-full lg:w-[70%] object-contain"
           />
         </motion.div>

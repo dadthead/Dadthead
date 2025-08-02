@@ -31,6 +31,7 @@ const Clients = () => {
               key={index}
               src={logo}
               alt={`client-logo-${index}`}
+              loading='lazy'
               className="h-32 w-auto object-contain grayscale hover:grayscale-0 transition duration-300"
             />
           ))}

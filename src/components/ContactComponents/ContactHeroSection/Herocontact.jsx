@@ -10,6 +10,7 @@ const Herocontact = () => {
                 src={assests.contact}
                 alt="Background"
                 className="w-full h-full object-cover "
+                loading='lazy'
             />
 
             <div className="absolute inset-0 flex flex-col items-center justify-center ">

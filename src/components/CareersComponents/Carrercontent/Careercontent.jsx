@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Megaphone, Paintbrush, Video, TrendingUp, Users } from "lucide-react";
+import { Link } from "react-router-dom";
 
 function Careers() {
   const [showCards, setShowCards] = useState(false);
@@ -128,7 +129,7 @@ function Careers() {
               transition={{ duration: 0.8 }}
               className="mt-14 px-12 py-4 bg-amber-400 text-black font-bold rounded-full shadow-xl hover:bg-white transition duration-300"
             >
-              Let’s Build
+              <Link to="/contact">Let’s Build </Link>
             </motion.button>
           </>
         )}

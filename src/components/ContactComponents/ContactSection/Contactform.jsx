@@ -70,6 +70,7 @@ function ContactSection() {
           <motion.img
             src={assests.contactman}
             alt="Contact image"
+            loading="lazy"
             className="relative z-1 w-3/4"
             animate={{ rotate: [0, 5, -5, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}

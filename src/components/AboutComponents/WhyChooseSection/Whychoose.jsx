@@ -31,6 +31,7 @@ const Choose = () => {
       src={assests.questionmark}
       alt="Question Mark"
       className="w-full md:w-[80%] lg:w-[70%] h-auto object-contain"
+      loading='lazy'
     />
   </motion.div>
 </div>

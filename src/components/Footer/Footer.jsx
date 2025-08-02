@@ -45,7 +45,7 @@ const Footer = () => {
 
                     {/* Logo & Tagline */}
                     <div className='md:w-1/3 flex flex-col items-center md:items-start'>
-                        <img src={assests.logo} className='w-40 mb-4' alt="Logo" />
+                        <img src={assests.logo} className='w-40 mb-4' loading='lazy' alt="Logo" />
                         <h2 className='text-2xl text-amber-400 font-bold text-center md:text-left'>
                             Boos is Branding Magician in Marketing
                         </h2>

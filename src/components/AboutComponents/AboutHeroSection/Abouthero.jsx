@@ -11,6 +11,7 @@ const Abouthero = () => {
   <img
     src={assests.aboutbanner}
     alt="Background"
+    loading='lazy'
     className="w-full h-full object-cover"
   />
 

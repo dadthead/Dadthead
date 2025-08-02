@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceCard = ({ icon, title, description, link }) => {
   return (
     <div className="relative group bg-black hover:bg-gray-200    rounded-2xl p-6 flex flex-col gap-4 w-full max-w-sm border border-gray-200 transition-all duration-500 shadow-md hover:shadow-2xl overflow-hidden transform hover:-translate-y-2 hover:scale-[1.03]">
-      {/* Glowing border effect */}
+   
       <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-amber-400 group-hover:animate-glow z-0" />
 
       {/* Card content */}
@@ -17,12 +18,11 @@ const ServiceCard = ({ icon, title, description, link }) => {
         <p className="text-gray-700 group-hover:text-gray-800 transition duration-300">
           {description}
         </p>
-        <a
-          href={link}
-          className="text-amber-400 font-semibold mt-5 hover:underline transition duration-300 inline-block "
-        >
+        <Link to={link} className="text-amber-400 font-semibold mt-5 hover:underline transition duration-300 inline-block ">
           Find out more
-        </a>
+        </Link>
+
+        
       </div>
     </div>
 
@@ -34,16 +34,4 @@ export default ServiceCard;
 
 
 
-// import React from "react";
 
-// const ServiceCard = ({ icon, title, description }) => {
-//   return (
-//     <div className="bg-black border-2 border-white rounded-xl hover:border-amber-400 p-6 h-[300px] w-full sm:w-[300px] shadow-lg hover:-translate-y-2 transition-transform duration-300">
-//       <div className="mb-4">{icon}</div>
-//       <h3 className="text-lg font-semibold text-white mb-2">{title}</h3>
-//       <p className="text-sm text-gray-400">{description}</p>
-//     </div>
-//   );
-// };
-
-// export default ServiceCard;

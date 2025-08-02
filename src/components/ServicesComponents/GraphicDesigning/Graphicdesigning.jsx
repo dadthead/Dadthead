@@ -33,6 +33,7 @@ function Graphicdesigning() {
               <img
                 src={service.img}
                 alt={service.title}
+                loading="lazy"
                 className="w-16 h-16 object-contain mr-3 mt-6 "
               />
               <div>

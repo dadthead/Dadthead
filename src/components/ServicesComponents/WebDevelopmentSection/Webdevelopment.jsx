@@ -33,6 +33,7 @@ function WebDevelopment() {
               <img
                 src={service.img}
                 alt={service.title}
+                loading="lazy"
                 className="w-18 h-18 object-contain mr-3 mt-6"
               />
               <div>

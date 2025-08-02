@@ -8,6 +8,7 @@ const Herosection = () => {
       <img
         src={assests.portfolio_bg}
         alt="Background"
+        loading='lazy'
         className="w-full h-full object-cover opacity-40"
       />
     

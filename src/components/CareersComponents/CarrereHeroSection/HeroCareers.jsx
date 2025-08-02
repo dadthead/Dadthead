@@ -8,6 +8,7 @@ const HeroCareers = () => {
       <img
         src={assests.Careerbanner}
         alt="Background"
+        loading='lazy'
         className="md:w-1/2  w-1/2 h-full object-cover opacity-90"
       />
        

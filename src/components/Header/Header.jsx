@@ -39,7 +39,7 @@ const Header = () => {
     >
       <div className="max-w-screen-xl mx-auto flex items-center justify-between py-3 px-6 sm:px-8 md:px-10">
         <Link to='/'>
-          <img src={assests.logo} className="w-24" alt="Logo" />
+          <img src={assests.logo} loading='lazy' className="w-24" alt="Logo" />
         </Link>
 
         <ul className="hidden md:flex items-center gap-8 text-amber-400 text-sm font-semibold uppercase">

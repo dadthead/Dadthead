@@ -48,6 +48,7 @@ const Testimonials = () => {
                   <img
                     src={item.img}
                     alt={item.name}
+                    loading="lazy"
                     className="w-20 h-20 border border-amber-400 rounded-full object-cover mx-auto mb-3"
                   />
                   <div className="text-amber-400 mb-2 font-bold text-center">"{item.name}"</div>

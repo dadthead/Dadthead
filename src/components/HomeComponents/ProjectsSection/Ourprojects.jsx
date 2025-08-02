@@ -62,12 +62,13 @@ const Projects = () => {
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3, delay: index * 0.3, ease: "easeInOut", type: "spring" }}
+            transition={{ duration: 0.1, delay: index * 0.1, ease: "easeInOut", type: "spring" }}
             key={index} className="bg-black border border-gray-200 shadow-xl shadow-gray-600 hover:shadow-gray-400 rounded-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 hover:scale-[1.03] transition duration-500">
             <img
               src={project.image}
               alt={project.title}
               className="w-full h-60 object-cover"
+              loading="lazy"
             />
             <div className="p-6 bg-black text-white">
               <span className={`text-sm font-semibold ${project.color}`}> -{project.category}</span>

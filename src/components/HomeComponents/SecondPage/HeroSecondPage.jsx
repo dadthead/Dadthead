@@ -42,6 +42,7 @@ const HomeSecondPage = () => {
             src={assests.questionmark}
             alt="About illustration"
             className="w-2/3 max-w-sm"
+            loading='lazy'
             initial={{ scale: 0.6, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.6 }}
