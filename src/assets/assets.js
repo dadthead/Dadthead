@@ -45,7 +45,7 @@ import technicalseo from './technicalseo.png'
 
 // Single Pages Banners
 // web development
-import Landingpagebanner from './Landingpagebanner.jpg'
+// import Landingpagebanner from './Landingpagebanner.jpg'
 import LandingPageBanner from './LandingPageBanner.png'
 
 import Skilledprofrssionals from './Skilledprofrssionals.png'
