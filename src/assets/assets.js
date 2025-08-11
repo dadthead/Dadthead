@@ -237,7 +237,7 @@ export const assests={
 
 // Single Pages Banners
 // web development
-    Landingpagebanner,
+    // Landingpagebanner,
     LandingPageBanner,
 
     Skilledprofrssionals,
@@ -252,14 +252,14 @@ export const assests={
 
     Expertdesigning,
     Speedoptimization,
-    SEOready,
+    // SEOready,
 
 
 // Dynamic Website
     DynamicWebsiteBanner,
     Customsolution,
     Scalablerobust, 
-    userfocuseddesign,
+    // userfocuseddesign,
     Integrationready,
 
 
