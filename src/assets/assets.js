@@ -105,7 +105,7 @@ import Profileoptimization from './Profileoptimization.png'
 // Social Media Marketing(SMM) 
 import SMMBanner from './SMMBanner.jpg'
 
-import creativecompanies from './creativecompanies.png'
+import ccompany from './ccompany.png'
 import Audiencetargeting from './Audiencetargeting.png'
 import Performanceanalytics from './Performanceanalytics.png'
 
@@ -301,7 +301,7 @@ SeoBanner,
 // Social Media Marketing(SMM) 
     SMMBanner,
      
-    Creativecompanies,
+    ccompany,
     Audiencetargeting,
     Performanceanalytics,
 
