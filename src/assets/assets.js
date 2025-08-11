@@ -68,7 +68,7 @@ import DynamicWebsiteBanner from './DynamicWebsiteBanner.png'
 
 import Customsolution from './Customsolution.png'
 import Scalablerobust from './Scalablerobust.png'
-import userfocuseddesign from './userfocuseddesign.png'
+// import userfocuseddesign from './userfocuseddesign.png'
 import Integrationready from './Integrationready.png'
 
 // Ecommerce
