@@ -138,7 +138,7 @@ import keywordcontent from './keywordcontent.png'
 import transparentracking from './transparentracking.png'
 
 // OFF Page SEO
-import qualitylinkbuilding from './qualitylinkbuilding.png'
+import qualitylinkbuilding from './Qualitylinkbuilding.png'
 import brandmention from './brandmention.png'
 import socialinfluencer from './socialinfluencer.png'
 import transparentprogress from './transparentprogress.png'
