@@ -244,7 +244,7 @@ export const Digitalmarketing =
   "Multichannel approaches ensure your message reaches audiences across various platforms.",
   "Continuous brainstorming and iteration keep campaigns fresh and impactful."
 ],
-      subimg: assests.Creativecompanies,
+      subimg: assests.ccompany,
     },
     {
       subtitle: "Audience Targeting",
