@@ -105,7 +105,7 @@ import Profileoptimization from './Profileoptimization.png'
 // Social Media Marketing(SMM) 
 import SMMBanner from './SMMBanner.jpg'
 
-import Creativecompanies from './Creativecompanies.png'
+import creativecompanies from './creativecompanies.png'
 import Audiencetargeting from './Audiencetargeting.png'
 import Performanceanalytics from './Performanceanalytics.png'
 
