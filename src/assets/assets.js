@@ -153,7 +153,7 @@ import ongoingmonitoring from './ongoingmonitoring.png'
 // Tesimonial Logo Images
 import globaldiagnostics from './globaldiagnostics.png'
 import Yogya from './Yogya.png' 
-import Japali from './Japali.png'
+import Japali from './japali.png'
 import meerashub from './meerashub.png'
 import yeluri from './yeluri.png'
 import vijaydigital from './vijaydigital.png'
