@@ -60,7 +60,7 @@ import staticpage from './staticpage.png'
 
 import Expertdesigning from './Expertdesigning.png'
 import Speedoptimization from './Speedoptimization.png'
-import SEOready from './SEOready.png'
+// import SEOready from './SEOready.png'
 
 
 // Dynamic Website
