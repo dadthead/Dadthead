@@ -1,14 +1,14 @@
 import React from "react";
 import { assests } from "../../../assets/assets";
 import { motion } from "framer-motion";
-import { button } from "framer-motion/client";
+
 
 
 const projects = [
   {
      category: "BL Nutri Foods",
     title: "",
-    image: assests.BLNutri,
+    image: assests.blnutri,
 description: "Empowering wellness with BL Nutri—where science meets nutrition for a healthier you.",
     color: "text-amber-400",
     // button : "https://blnutrifoods.com/"
@@ -33,10 +33,10 @@ description: "Experience the artistry of AEFL—where visuals meet emotion throu
   {
     
 
-    category: "Radhika ",
+    category: "Radhika Cosmetic Gynecology Center ",
     title: "",
     image: assests.Radhika,
-description: "Radhika Rayudu—redefining confidence through advanced cosmetic gynecology and personalized care.",
+description: "Radhika Rayudu—empowering women with advanced cosmetic gynecology.",
     color: "text-amber-400",
     button : "https://radhikacosmeticgynecology.com/"
   },
@@ -60,9 +60,9 @@ const Projects = () => {
         className="max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-4 gap-10">
         {projects.map((project, index) => (
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.1, delay: index * 0.1, ease: "easeInOut", type: "spring" }}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.2,  type: "spring"  }}
             key={index} className="bg-black border border-gray-200 shadow-xl shadow-gray-600 hover:shadow-gray-400 rounded-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 hover:scale-[1.03] transition duration-500">
             <img
               src={project.image}

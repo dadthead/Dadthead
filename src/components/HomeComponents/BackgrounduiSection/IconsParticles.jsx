@@ -1,16 +1,16 @@
 import React from "react";
 import "./IconsParticles.css";
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn,  } from "react-icons/fa";
+import { Facebook, Twitter, Instagram, Linkedin,  } from "lucide-react";
 
 const FloatingIcons = () => {
   return (
     <div className="box-area">
 
       <div className="icon-float-layer">
-        <FaFacebookF className="float-icon delay-1" />
-        <FaLinkedinIn className="float-icon delay-2" />
-        <FaTwitter className="float-icon delay-3" />
-        <FaInstagram className="float-icon delay-4" />
+        <Facebook className="float-icon delay-1" />
+        <Linkedin className="float-icon delay-2" />
+        <Twitter className="float-icon delay-3" />
+        <Instagram className="float-icon delay-4" />
         
       </div>
     </div>

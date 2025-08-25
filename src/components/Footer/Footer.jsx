@@ -38,6 +38,12 @@ const Footer = () => {
         }
     };
 
+
+    const getFullYear = ()=>{
+        const date = new Date();
+        return date.getFullYear();
+    }
+
     return (
         <>
             <div className='w-full h-auto bg-black border-t-1 border-gray-500  shadow-2xl shadow-slate-500 px-4 md:px-6 py-10'>
@@ -47,7 +53,7 @@ const Footer = () => {
                     <div className='md:w-1/3 flex flex-col items-center md:items-start'>
                         <img src={assests.logo} className='w-40 mb-4' loading='lazy' alt="Logo" />
                         <h2 className='text-2xl text-amber-400 font-bold text-center md:text-left'>
-                            Boos is Branding Magician in Marketing
+                            Boos in Branding Magician in Marketing
                         </h2>
                     </div>
 
@@ -90,15 +96,14 @@ const Footer = () => {
                         {result && <p className="text-white text-sm mt-2">{result}</p>}
 
                         <div className='text-center md:text-left'>
-                            <h2 className='text-2xl text-amber-400 font-bold mb-2'>Contact</h2>
+                            <h2 className='text-xl text-amber-400 font-bold mb-2'>Contact</h2>
                             <div className='flex gap-4 justify-center md:justify-start text-amber-500'>
                                 <a href="https://www.facebook.com/profile.php?id=61570862415128" target="_blank" rel="noopener noreferrer"><Facebook size={24} className='hover:text-amber-400 hover:scale-110 transition-all  duration-75' /></a>
                                 <a href="https://www.instagram.com/dad_thefisherman?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"><Instagram size={28} className='hover:text-amber-400 hover:scale-110 transition-all  duration-75' /></a>
                                 <a href="https://www.linkedin.com/company/dad-the-ad/" target="_blank" rel="noopener noreferrer"><Linkedin size={24} className='hover:text-amber-400 hover:scale-110 transition-all  duration-75' /></a>
                                 <a href="https://x.com/DadtheAD?t=zU_GGRmSr_UmZ9I_jNOzJw&s=09" target="_blank" rel="noopener noreferrer"><Twitter size={24} className='hover:text-amber-400 hover:scale-110 transition-all  duration-75' /></a>
-                                {/* <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><Youtube size={24} className='hover:text-amber-400 hover:scale-110 transition-all  duration-75' /></a> */}
                             </div>
-                            <div className='mt-4'>
+                            <div className='mt-4 text-lg'>
                                 <p className='text-white font-bold'>Address: <span className='text-white'>Near varjrams, 4th Ln, 13th Cross, Brodipet, Guntur, Andhra Pradesh 522002</span></p>
                                 <p className='text-white'>Email: <span className='text-white'>dadtheadbbmm@gmail.com</span></p>
                                 <p className='text-white font-bold '>Phone: <span className='text-white'>+91 83330 79696</span></p>
@@ -110,7 +115,7 @@ const Footer = () => {
             </div>
             <div className='w-full flex bg-black py-1 justify-center '>
                 <p className='text-center text-white mb-2.5 '>
-                    &copy; 2025 Dad TheAd. All rights reserved.
+                    &copy; { getFullYear()} Dad TheAd. All rights reserved.
                 </p>
             </div>
         </>

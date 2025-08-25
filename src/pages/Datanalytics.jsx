@@ -1,59 +1,56 @@
-import React, { useRef } from 'react';
-import {
-  FaChartLine, FaDatabase, FaCogs, FaRobot, FaSearchDollar, FaRegChartBar, FaGlobeAsia,
-} from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import BallParticles from '../components/Gsap/BallParticles/Ballparticles';
-import Particles from '../components/Gsap/Particles/Particles';
+
+
+import React, { useRef } from "react";
+import { ChartLine, Database, Settings, Bot , Search, DollarSign, BarChart, Globe } from "lucide-react";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import BallParticles from "../components/Gsap/BallParticles/Ballparticles";
+import Particles from "../components/Gsap/Particles/Particles";
 
 const DataAnalyticsSection = () => {
   const heroRef = useRef(null);
 
   const analyticsServices = [
     {
-      icon: <FaChartLine className="text-pink-500 text-3xl" />,
+      icon: <ChartLine className="text-pink-500 w-8 h-8" />,
       title: "Business Intelligence",
       desc: "Transform raw data into actionable insights using advanced reporting and real-time dashboards.",
     },
     {
-      icon: <FaDatabase className="text-blue-400 text-3xl" />,
+      icon: <Database className="text-blue-400 w-8 h-8" />,
       title: "Data Warehousing",
       desc: "Centralize and manage your data efficiently for quick access, integration, and historical analysis.",
     },
     {
-      icon: <FaCogs className="text-green-500 text-3xl" />,
+      icon: <Settings className="text-green-500 w-8 h-8" />,
       title: "Predictive Analytics",
       desc: "Use historical data and ML models to forecast trends and make smarter business decisions.",
     },
     {
-      icon: <FaRobot className="text-purple-500 text-3xl" />,
+      icon: <Bot  className="text-purple-500 w-8 h-8" />,
       title: "AI-Powered Automation",
       desc: "Streamline processes using AI and analytics to reduce manual efforts and boost efficiency.",
     },
     {
-      icon: <FaSearchDollar className="text-amber-400 text-3xl" />,
+      icon: <Search className="text-amber-400 w-8 h-8" />,
       title: "Customer Insights",
       desc: "Understand buyer behavior and preferences through behavioral data and segmentation analysis.",
     },
     {
-      icon: <FaRegChartBar className="text-red-400 text-3xl" />,
+      icon: <BarChart className="text-red-400 w-8 h-8" />,
       title: "Performance Monitoring",
       desc: "Track key metrics and KPIs in real-time to optimize your operations and marketing outcomes.",
     },
     {
-      icon: <FaGlobeAsia className="text-cyan-400 text-3xl" />,
+      icon: <Globe className="text-cyan-400 w-8 h-8" />,
       title: "Scalable Solutions",
       desc: "Deploy data solutions that scale with your business growth and adapt to changing needs.",
     },
   ];
 
   return (
-    <section
-    ref = {heroRef}
-     className="bg-black text-white py-40 px-6">
+    <section ref={heroRef} className="bg-black text-white py-40 px-6">
       <div className="max-w-6xl mx-auto">
-
         {/* Heading */}
         <div className="text-center mb-16 z-[2]">
           <motion.h2
@@ -71,19 +68,18 @@ const DataAnalyticsSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2 }}
             viewport={{ once: true }}
-            className="text-lg text-gray-300 max-w-3xl mx-auto "
+            className="text-lg text-gray-300 max-w-3xl mx-auto"
           >
             Unlock the power of your data with scalable analytics solutions that drive smarter decisions and measurable outcomes.
           </motion.p>
 
-           {/*  Background Particles */}
-
-    <div className="absolute inset-0 z-[1] overflow-hidden pointer-events-none">
-  <div className="w-full h-full relative">
-    <BallParticles triggerRef={heroRef} />
-    <Particles />
-  </div>
-</div>
+          {/* Background Particles */}
+          <div className="absolute inset-0 z-[1] overflow-hidden pointer-events-none">
+            <div className="w-full h-full relative">
+              <BallParticles triggerRef={heroRef} />
+              <Particles />
+            </div>
+          </div>
         </div>
 
         {/* Why Data Analytics */}
@@ -98,10 +94,10 @@ const DataAnalyticsSection = () => {
             Why Choose Data Analytics?
           </h3>
           <ul className="text-base text-gray-300 space-y-4 max-w-4xl mx-auto list-disc px-6 sm:px-12 md:px-20 lg:px-28 leading-relaxed">
-            <li><span className="text-gray-400 font-medium">Data-Driven Decisions :</span> &nbsp; Empower every strategy with facts, not assumptions.</li>
-            <li><span className="text-gray-400 font-medium">Real-Time Insights :</span> &nbsp; Get instant visibility into performance and trends.</li>
-            <li><span className="text-gray-400 font-medium">Improved Efficiency :</span> &nbsp; Identify bottlenecks and streamline operations using data.</li>
-            <li><span className="text-gray-400 font-medium">Competitive Advantage :</span> &nbsp; Stay ahead by predicting market shifts before they happen.</li>
+            <li><span className="text-gray-400 font-medium">Data-Driven Decisions :</span> Empower every strategy with facts, not assumptions.</li>
+            <li><span className="text-gray-400 font-medium">Real-Time Insights :</span> Get instant visibility into performance and trends.</li>
+            <li><span className="text-gray-400 font-medium">Improved Efficiency :</span> Identify bottlenecks and streamline operations using data.</li>
+            <li><span className="text-gray-400 font-medium">Competitive Advantage :</span> Stay ahead by predicting market shifts before they happen.</li>
           </ul>
         </motion.div>
 

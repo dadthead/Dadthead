@@ -8,8 +8,8 @@ import Particles from '../../components/Gsap/Particles/Particles';
 
 
 const DigitalMarketingSingle = () => {
-    const heroRef = useRef(null);
-  
+  const heroRef = useRef(null);
+
   const { id } = useParams();
   const digitalData = Digitalmarketing.find((item) => item.id === Number(id));
 
@@ -19,8 +19,8 @@ const DigitalMarketingSingle = () => {
 
   return (
     <div
-    ref = {heroRef} 
-    className="text-amber-400   ">
+      ref={heroRef}
+      className="text-amber-400   ">
       {/* Banner section */}
       <div className="relative w-full md:w-full h-[250px] md:h-[400px] ">
         <img
@@ -32,32 +32,32 @@ const DigitalMarketingSingle = () => {
 
         <div className='absolute inset-0 flex flex-col items-center justify-center bg-opacity-40'>
 
-        <motion.h2
-        initial={{ opacity: 0, scale: 1.9 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1.0, ease: "easeOut" }}
-        viewport={{ once: true }}
-         className="text-amber-400 text-4xl md:text-5xl z-[2] font-semibold text-center mt-30">
-          {digitalData.title}
-        </motion.h2>
+          <motion.h2
+            initial={{ opacity: 0, scale: 1.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1.0, ease: "easeOut" }}
+            viewport={{ once: true }}
+            className="text-amber-400 text-4xl md:text-5xl z-[2] font-semibold text-center mt-30">
+            {digitalData.title}
+          </motion.h2>
 
-        <motion.p 
-        initial={{ opacity: 0, x: 50 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-        viewport={{ once: true }}
-        className="text-white text-center text-lg z-[2] md:text-lg mt-4 px-6 font-light max-w-2xl mx-auto ">
-  "Strategic digital marketing that delivers real results — only at <span className="text-amber-400 font-semibold">DAD – The Ad</span>."
-        </motion.p>
+          <motion.p
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true }}
+            className="text-white text-center text-lg z-[2] md:text-lg mt-4 px-6 font-light max-w-2xl mx-auto ">
+            "Strategic digital marketing that delivers real results — only at <span className="text-amber-400 font-semibold">DAD – The Ad</span>."
+          </motion.p>
 
-         {/*  Background Particles */}
+          {/*  Background Particles */}
 
-    <div className="absolute inset-0 z-[1] overflow-hidden pointer-events-none">
-  <div className="w-full h-full relative">
-    <BallParticles triggerRef={heroRef} />
-    <Particles />
-  </div>
-</div>
+          <div className="absolute inset-0 z-[1] overflow-hidden pointer-events-none">
+            <div className="w-full h-full relative">
+              <BallParticles triggerRef={heroRef} />
+              <Particles />
+            </div>
+          </div>
 
 
         </div>
@@ -112,15 +112,15 @@ const DigitalMarketingSingle = () => {
                 className="w-full md:w-1/2"
               >
                 <h3 className="text-xl text-amber-400 md:text-2xl font-semibold mb-3">{item.subtitle}</h3>
-{item.subpoints && Array.isArray(item.subpoints) ? (
-  <ul className="list-disc pl-5 space-y-2 text-gray-400">
-    {item.subpoints.map((point, idx) => (
-      <li key={idx}>{point}</li>
-    ))}
-  </ul>
-) : (
-  <p className="text-gray-400">{item.subdescription}</p>
-)}              </motion.div>
+                {item.subpoints && Array.isArray(item.subpoints) ? (
+                  <ul className="list-disc pl-5 space-y-2 text-gray-400">
+                    {item.subpoints.map((point, idx) => (
+                      <li key={idx}>{point}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="text-gray-400">{item.subdescription}</p>
+                )}              </motion.div>
             </div>
           ))}
 

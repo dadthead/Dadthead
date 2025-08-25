@@ -59,7 +59,7 @@ const Hero = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className=" text-5xl md:px-10 md:text-4xl lg:text-5xl font-bold leading-tight text-yellow-400"
           >
-            <span className="block">Boss is Branding</span>
+            <span className="block">Boss in Branding</span>
             <span className="block">Magician in Marketing</span>
           </motion.h2>
 

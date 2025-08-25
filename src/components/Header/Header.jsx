@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
 import { assests } from '../../assets/assets';
 import { NavLink, Link, useLocation } from 'react-router-dom';
-import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
-import { FaWhatsapp } from 'react-icons/fa';
+import { Facebook, Instagram,  Twitter, Linkedin } from 'lucide-react';
+
+
 import Button from './Button';
 
 const Header = () => {
@@ -97,7 +97,7 @@ const Header = () => {
      
     </header>
      {/* WhatsApp */}
-      <motion.a
+      {/* <motion.a
    href="https://wa.me/918333079696" 
       target="_blank"
       rel="noopener noreferrer"
@@ -110,8 +110,25 @@ const Header = () => {
       }}
       className="fixed bottom-5 right-5 bg-[#25D366] text-white p-4 rounded-full shadow-lg z-[2] border-b-4 border-white hover:scale-110 transition-transform duration-300"
     >
-      <FaWhatsapp className="w-6 h-6" />
-</motion.a>
+      <Whatsapp className="w-6 h-6" />
+</motion.a> */}
+
+
+{/* <motion.a
+  href="https://wa.me/918333079696"
+  target="_blank"
+  rel="noopener noreferrer"
+  animate={{ y: [0, -30, 0] }}
+  transition={{
+    duration: 1.5,
+    repeat: Infinity,
+    repeatType: "loop",
+    ease: "easeInOut",
+  }}
+  className="fixed bottom-5 right-5 bg-[#25D366] text-white p-4 rounded-full shadow-lg z-[2] border-b-4 border-white hover:scale-110 transition-transform duration-300"
+>
+  <MessageCircle className="w-6 h-6" /> {/* ✅ Chat bubble instead of WhatsApp */}
+{/* </motion.a> */} 
     </div>
   );
 };

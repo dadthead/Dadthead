@@ -10,7 +10,8 @@ import d from './d.png'
 import Radhika from './Radhika.jpg'
 import aefl from './aefl.jpg'
 import Yogyaa from './Yogyaa.jpg'
-import BLNutri from './BLNutri.jpg'
+import blnutri from './blnutri.jpg'
+
 import aboutbanner from './aboutbanner.png'
 import questionmark from  './questionmark.png'
 // import service1 from './service1.png'
@@ -45,8 +46,7 @@ import technicalseo from './technicalseo.png'
 
 // Single Pages Banners
 // web development
-import Landingpagebanner from './LandingPageBanner.jpg'
-import LandingPageBanner from './LandingPageBanner.png'
+
 
 import Skilledprofrssionals from './Skilledprofrssionals.png'
 import Design from './Design.png'
@@ -54,18 +54,12 @@ import Functionality from './Functionality.png'
 import Marketingseostrategy from './Marketingseostrategy.png'
 
 // Static Website
-import StaticWebsiteBanner from './StaticWebsiteBanner.jpg'
-import staticpage from './staticpage.png'
-
-
 import Expertdesigning from './Expertdesigning.png'
 import Speedoptimization from './Speedoptimization.png'
-import SEOready from './SEOready.png'
+import SEOready from './Seoready.png'
 
 
 // Dynamic Website
-import DynamicWebsiteBanner from './DynamicWebsiteBanner.png'
-
 import Customsolution from './Customsolution.png'
 import Scalablerobust from './Scalablerobust.png'
 import userfocuseddesign from './userfocuseddesign.png'
@@ -103,9 +97,7 @@ import Profileoptimization from './Profileoptimization.png'
 
 
 // Social Media Marketing(SMM) 
-import SMMBanner from './SMMBanner.jpg'
-
-import Creativecompanies from './Creativecompanies.png'
+import ccompany from './ccompany.png'
 import Audiencetargeting from './Audiencetargeting.png'
 import Performanceanalytics from './Performanceanalytics.png'
 
@@ -138,7 +130,7 @@ import keywordcontent from './keywordcontent.png'
 import transparentracking from './transparentracking.png'
 
 // OFF Page SEO
-import qualitylinkbuilding from './qualitylinkbuilding.png'
+import qualitylinkbuilding from './Qualitylinkbuilding.png'
 import brandmention from './brandmention.png'
 import socialinfluencer from './socialinfluencer.png'
 import transparentprogress from './transparentprogress.png'
@@ -152,14 +144,14 @@ import ongoingmonitoring from './ongoingmonitoring.png'
 
 // Tesimonial Logo Images
 import globaldiagnostics from './globaldiagnostics.png'
-import Yogya from './Yogya.png' 
-import Japali from './Japali.png'
+import Yogya from './yogya.png' 
+import Japali from './japali.png'
 import meerashub from './meerashub.png'
 import yeluri from './yeluri.png'
 import vijaydigital from './vijaydigital.png'
 import nyla from './nyla.png'
 import sultan from './sultan.png'
-import ammrutha from './ammrutha.png'
+import ammrutha from './Ammrutha.png'
 import suzuki from './suzuki.png'
 import medlight from './medlight.png'
 import radhikarayadu from './radhikarayadu.png'
@@ -188,8 +180,6 @@ import men5 from './men5.jpg'
 export const assests={
 
     Blacklines,
-
-
     logo,
     menu,
     cross, 
@@ -199,7 +189,8 @@ export const assests={
     Radhika,
     aefl,
     Yogyaa,
-    BLNutri,
+    blnutri,
+    
     aboutbanner,
     questionmark,
     // service1,
@@ -237,8 +228,7 @@ export const assests={
 
 // Single Pages Banners
 // web development
-    Landingpagebanner,
-    LandingPageBanner,
+    
 
     Skilledprofrssionals,
     Design,
@@ -247,16 +237,12 @@ export const assests={
 
 
 // Static Website
-    StaticWebsiteBanner,
-    staticpage,
-
     Expertdesigning,
     Speedoptimization,
     SEOready,
 
 
 // Dynamic Website
-    DynamicWebsiteBanner,
     Customsolution,
     Scalablerobust, 
     userfocuseddesign,
@@ -299,9 +285,8 @@ SeoBanner,
     
 
 // Social Media Marketing(SMM) 
-    SMMBanner,
-     
-    Creativecompanies,
+   
+    ccompany,
     Audiencetargeting,
     Performanceanalytics,
 

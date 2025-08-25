@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import VanillaTilt from 'vanilla-tilt'; // ✅ import vanilla-tilt
 
 const Bgcitysky = () => {
-  
+
   const triggerRef = useRef(null);
 
   const tiltRef = useRef(null); // ✅ Create a ref for tilt
@@ -59,39 +59,43 @@ const Bgcitysky = () => {
 
         {/* Address content */}
         <div className="py-16 px-5 text-center lg:text-left max-w-lg">
-  {/* Guntur address */}
-  <motion.div
-    initial={{ opacity: 0, y: 60 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    transition={{ duration: 2.5, ease: "easeOut" }}
-    viewport={{ once: true }}
-  >
-    <h2 className="text-3xl font-semibold text-amber-400 mt-4 lg:mt-0">Guntur</h2>
-    <p className="text-gray-300 mt-2 text-xl">
-      Digital Marketing Partner, Near Vajrams, 4th Ln, 13th Cross, Brodipet, Guntur, Andhra Pradesh - 522002
-    </p>
-    <p className="text-gray-300  text-xl mt-2">
-      Mobile: +91 83330 79696
-    </p>
-  </motion.div>
+          {/* Hyderabad address  */}
+          <motion.div
+            initial={{ opacity: 0, y: 60 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2.5, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl font-semibold text-amber-400 mt-10 lg:mt-6">Hyderabad</h2>
 
-  {/* Hyderabad address  */}
-  <motion.div
-    initial={{ opacity: 0, y: 60 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    transition={{ duration: 2.5, ease: "easeOut" }}
-    viewport={{ once: true }}
-  >
-    <h2 className="text-3xl font-semibold text-amber-400 mt-10 lg:mt-6">Hyderabad</h2>
-   
-    <p className="text-gray-300 mt-2 text-xl">
-       Hyderabad, Telangana - 500081
-    </p>
-    <p className="text-gray-300 text-xl mt-2">
-      Mobile: +91 83330 79696
-    </p>
-  </motion.div>
-</div>
+            <p className="text-gray-300 mt-2 text-xl">
+              8-3-833/14 kamalapuri colony, Road No. 2, phase1, Banjara Hills, Hyderabad, Telangana 500033
+            </p>
+            <p className="text-gray-300 text-xl mt-2">
+              Mobile: +91 83330 79696
+            </p>
+          </motion.div>
+
+
+
+          {/* Guntur address */}
+          <motion.div
+            initial={{ opacity: 0, y: 60 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2.5, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl font-semibold text-amber-400 mt-4 lg:mt-0">Guntur</h2>
+            <p className="text-gray-300 mt-2 text-xl">
+              Digital Marketing Partner, Near Vajrams, 4th Ln, 13th Cross, Brodipet, Guntur, Andhra Pradesh - 522002
+            </p>
+            <p className="text-gray-300  text-xl mt-2">
+              Mobile: +91 83330 79696
+            </p>
+          </motion.div>
+
+
+        </div>
       </div>
 
       {/* Particles background */}

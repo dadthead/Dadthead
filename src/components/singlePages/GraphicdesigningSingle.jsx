@@ -124,7 +124,7 @@ const GraphicdesigningSingle = () => {
           ))}
           <Link
             to="/services"
-            className="inline-block mt-8 text-amber-400 hover:underline text-3xl font-semibold text-center"
+            className="inline-block mt-8 text-amber-400 hover:underline text-3xl font-semibold text-center "
           >
             ← Back to Services
           </Link>

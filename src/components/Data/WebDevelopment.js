@@ -5,8 +5,8 @@ export const Webdevelopment = [
         id: 1,
         title: "Landing Page",
         img: assests.LandingPage,
-        banner: assests.Landingpagebanner,
-        contentimg: assests.LandingPageBanner,
+        // banner: assests.Landingpagebanner,
+        // contentimg: assests.LandingPageBanner,
         description: 
         "A landing page is a simple, focused web page designed to promote a product or service and encourage visitors to take one specific action.",
         content: 
@@ -77,8 +77,8 @@ export const Webdevelopment = [
   id: 2,
   title: "Static Page",
   img: assests.StaticWebsite,
-  banner: assests.staticpage,
-  contentimg: assests.Staticwebsitebanner1,
+  // banner: assests.staticpage,
+  // contentimg: assests.Staticwebsitebanner1,
   description: "A static page displays fixed content to all visitors, offering simplicity, speed, and security. Perfect for showcasing company information, portfolios, and marketing sites with minimal maintenance needs.",
   content: 
     "A static page is a simple web page that displays the same content for every visitor. " +
@@ -135,8 +135,8 @@ export const Webdevelopment = [
   id: 3,
   title: "Dynamic Page",
   img: assests.DynamicWebsite,
-  banner: assests.DynamicWebsiteBanner,
-  contentimg: assests.DynamicWebsiteBanner,
+  // banner: assests.DynamicWebsiteBanner,
+  // contentimg: assests.DynamicWebsiteBanner,
   description: "A dynamic page adapts content in real time based on user interactions or data, delivering a personalized and engaging experience",
   content: 
     "A dynamic page is a web page that displays different content every time it is viewed, often depending on user interactions or data from a database.\n\n" +
@@ -206,8 +206,8 @@ export const Webdevelopment = [
   id: 4,
   title: "E-commerce Website",
   img: assests.Ecommerce,
-  banner: assests.EcommerceBanner,
-  contentimg: assests.EcommerceBanner,
+  // banner: assests.EcommerceBanner,
+  // contentimg: assests.EcommerceBanner,
   description: "An e-commerce website allows you to sell products and services online, reach more customers, and grow your business.",
   content:
     "An e-commerce website is a powerful online platform that enables businesses to sell products or services directly to consumers over the internet.\n\n" +
@@ -277,8 +277,8 @@ export const Webdevelopment = [
   id: 5,
   title: "Portfolio Website",
   img: assests.portfolio,
-  banner: assests.PortfolioBanner,
-  contentimg: assests.PortfolioBanner,
+  // banner: assests.PortfolioBanner,
+  // contentimg: assests.PortfolioBanner,
   description: "A portfolio website showcases your skills, work, and achievements online to help you build credibility and attract new opportunities.",
   content:
     "A portfolio website is a dedicated online space to present your work, skills, and achievements in a professional and visually appealing way.\n\n" +
