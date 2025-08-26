@@ -24,8 +24,8 @@ const Clients = () => {
         Our Clients
       </h1>
 
-      <div className="relative w-full">
-        <div className="flex gap-10 animate-scroll">
+      <div className="relative w-full overflow-hidden">
+        <div className="flex gap-10 animate-scroll min-w-max">
           {[...logos, ...logos].map((logo, index) => (
             <img
               key={index}
@@ -33,7 +33,7 @@ const Clients = () => {
 
               alt={`client-logo-${index}`}
               loading='lazy'
-              className="h-[100px] w-[100px] object-contain md:grayscale md:hover:grayscale-1 transition duration-300"
+              className="h-[100px] w-[100px] object-contain md:grayscale md:hover:grayscale-1 transition duration-100"
             />
           ))}
         </div>
