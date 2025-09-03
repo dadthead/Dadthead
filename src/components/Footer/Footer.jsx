@@ -106,7 +106,7 @@ const Footer = () => {
                             <div className='mt-4 text-lg'>
                                 <p className='text-white font-bold'>Address: <span className='text-white'>Near varjrams, 4th Ln, 13th Cross, Brodipet, Guntur, Andhra Pradesh 522002</span></p>
                                 <p className='text-white'>Email: <span className='text-white'>dadtheadbbmm@gmail.com</span></p>
-                                <p className='text-white font-bold '>Phone: <span className='text-white'>+91 83330 79696</span></p>
+                                <p className='text-white font-bold '>Phone_Number: <span className='text-white'>+91 83330 79696</span></p>
                             </div>
                         </div>
                     </div>
