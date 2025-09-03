@@ -3,18 +3,20 @@ import "./Testimonials.css";
 import { assests } from "../../../assets/assets";
 
 const testimonials = [
-  { name: "Yogya", title: "Client", text: "Amazing experience.", img: assests.women1 },
-  { name: "BL Nutri Foods", title: "Client", text: "Great support.", img: assests.men1 },
-  { name: "Japali", title: "Client", text: "Loved the design.", img: assests.women2 },
-  { name: "Global Diagnostics", title: "Client", text: "Professional work.", img: assests.men2},
-  { name: "meerashub", title: "Client", text: "Highly recommended.", img: assests.women3 },
-  { name: "yeluri", title: "Client", text: "Beautiful design", img: assests.men3 },
-  { name: "Nyla", title: "Client", text: "Amazing experience.", img: assests.women4 },
-  { name: "Sultan", title: "Client", text: "Great support.", img: assests.men4},
-  { name: "ammrutha", title: "Client", text: "Loved the design.", img: assests.women5 },
-  { name: "medlight", title: "Client", text: "Professional work.", img: assests.men5 },
-  { name: "blnutry", title: "Client", text: "Highly recommended.", img: assests.women6 },
-  {name:"radhikarayadu", title: "Client", text: "Highly recommended.", img: assests.women7 },
+  { name: "Radhika Cosmetic Gynecology Center", title: "Client", text: "Helped us grow awareness and connect with the right patients.", img: assests.radhika },
+
+  { name: "Signet Electricals", title: "Client", text: "Increased our visibility and sales.", img: assests.signet },
+  
+  { name: "Nyla – The True You (Salon)", title: "Client", text: "Helped grow appointments and reach.", img: assests.nila },
+  
+  
+  { name: "Japali Kitchens", title: "Client", text: "Brought us the right audience.", img: assests.japali },
+  
+  { name: "SV Fire Safety Services", title: "Client", text: "Delivered quality leads consistently.", img: assests.svfire },
+
+  { name: "Ethos Dental Clinic", title: "Client", text: "Helped us reach more patients effectively.", img: assests.ethos },
+
+  { name: "Sri Kusum (Clothing Store)", title: "Client", text: "Drove more footfall and sales.", img: assests.kusum },
  
 ];
 
@@ -51,7 +53,7 @@ const Testimonials = () => {
                     loading="lazy"
                     className="w-20 h-20 border border-amber-400 rounded-full object-cover mx-auto mb-3"
                   />
-                  <div className="text-amber-400 mb-2 font-bold text-center">"{item.name}"</div>
+                  <div className="text-amber-400 mb-2 font-bold text-center">{item.name}</div>
                   <div className="text-sm text-white text-center">{item.text}</div>
                   <div className="text-sm text-white text-center">{item.title}</div>
                 </div>

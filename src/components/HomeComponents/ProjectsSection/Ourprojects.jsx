@@ -6,37 +6,37 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-     category: "BL Nutri Foods",
+     category: "Vijay Digital",
     title: "",
-    image: assests.blnutri,
-description: "Empowering wellness with BL Nutri—where science meets nutrition for a healthier you.",
+    image: assests.vijaya,
+description: "Vijay Digital is a trusted electronics and home appliances store.",
     color: "text-amber-400",
     // button : "https://blnutrifoods.com/"
     
   },
   {
-   category: "Yogya",
+   category: "Nyla",
     title: "",
-    image: assests.Yogyaa,
-description: "Discover the elegance of Yogya—where tradition meets modern style in every frame.",
+    image: assests.nyla1,
+description: "Nyla specializes in advanced skincare and holistic wellness solutions.",
   color: "text-amber-400",
-    button : "https://theyogya.com/"
+    // button : "https://theyogya.com/"
   },
   {
-    category: "AEFL",
+    category: "Global Diagnostics",
     title: "",
-    image: assests.aefl,
-description: "Experience the artistry of AEFL—where visuals meet emotion through cinematic expression.",
+    image: assests.globaldiagnostics1,
+description: "lobal Diagnostics provides advanced medical testing and diagnostic services.",
    color: "text-amber-400",
-    button : "https://www.aefl.co.in/"
+    // button : "https://www.aefl.co.in/"
   },
   {
     
 
     category: "Radhika Cosmetic Gynecology Center ",
     title: "",
-    image: assests.Radhika,
-description: "Radhika Rayudu—empowering women with advanced cosmetic gynecology.",
+    image: assests.radhika1,
+description: "Radhika Rayudu—empowering women’s health.",
     color: "text-amber-400",
     button : "https://radhikacosmeticgynecology.com/"
   },
@@ -49,9 +49,8 @@ const Projects = () => {
       <div className="w-full text-white text-center py-16 relative ">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="text-4xl lg:text-5xl  font-bold text-amber-400 decoration-1 underline underline-offset-8">Our Latest Projects</h2>
-          <p className="mt-4 text-white/80">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
+          
+          
         </div>
       </div>
 

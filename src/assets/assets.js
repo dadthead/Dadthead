@@ -44,6 +44,7 @@ import technicalseo from './technicalseo.png'
 
 
 
+
 // Single Pages Banners
 // web development
 
@@ -158,20 +159,23 @@ import radhikarayadu from './radhikarayadu.png'
 import blnutry from './blnutry.png'
 
 // human resources
-import women1 from './women1.jpg'
-import women2 from './women2.jpg'
-import women3 from './women3.jpg'
-import women4 from './women4.jpg'
-import women5 from './women5.jpg'
-import women6 from './women6.jpg'
-import women7 from './women7.jpg'
+import radhika from './women1.png'
+import japali from './women2.jpg'
+import nila from './women3.jpg'
 
-import men1 from './men1.jpg'
-import men2 from './men2.jpg'
-import men3 from './men3.jpg'
-import men4 from './men4.jpg'
-import men5 from './men5.jpg'
 
+import ethos from './men1.jpg'
+import svfire from './men2.png'
+import signet from './men3.png'
+import kusum from './men4.jpg'
+
+
+
+// our projects 
+import vijaya from './Vijaya-digitals.jpg'
+import nyla1 from './Nyla.jpg'
+import radhika1 from './Radhika-Rayudu.jpg'
+import globaldiagnostics1 from './Global-Diagnostics.jpg'
 
 
 
@@ -352,19 +356,23 @@ SeoBanner,
    
  
 // human resources
-    women1,
-    women2,
-    women3,
-    women4,
-    women5,
-    women6,
-    women7,
+    radhika,
+    ethos,
+    svfire,
+    signet,
+    japali,
+    nila,
+    kusum,
 
-    men1,
-    men2,
-    men3,
-    men4,
-    men5,
+    // Our projects
+    vijaya,
+    nyla1,
+    radhika1,
+    globaldiagnostics1,
+   
+
+    
+   
     
     
    
