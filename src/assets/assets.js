@@ -63,7 +63,7 @@ import SEOready from './Seoready.png'
 // Dynamic Website
 import Customsolution from './Customsolution.png'
 import Scalablerobust from './Scalablerobust.png'
-import userfocuseddesign from './userfocuseddesign.png'
+import userfocuseddesign from './Userfocuseddesign.png'
 import Integrationready from './Integrationready.png'
 
 // Ecommerce
